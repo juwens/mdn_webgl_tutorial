@@ -2,9 +2,10 @@
   "name": "mdn_wegl_tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/parcel/bin/cli.js src/index.html"
   },
   "author": "",
   "license": "ISC",
