@@ -1,7 +1,7 @@
 # mdn_wegl_tutorial
 1:1 typescript version of the MDN js WebGL tutorial
 
-Source: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+Source: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
 
 # Get Started
 - clone
