@@ -43,19 +43,16 @@ function initShaderProgram(gl: WebGLRenderingContext, vsSource: string, fsSource
   // creates a shader of the given type, uploads the source and
   // compiles it.
   //
-  function loadShader(gl: { createShader: (arg0: any) => any; shaderSource: (arg0: any, arg1: any) => void; compileShader: (arg0: any) => void; getShaderParameter: (arg0: any, arg1: any) => any; COMPILE_STATUS: any; getShaderInfoLog: (arg0: any) => string; deleteShader: (arg0: any) => void; }, type: any, source: any) {
+  function loadShader(gl: WebGLRenderingContext, type: GLenum , source: string) {
     const shader = gl.createShader(type);
   
     // Send the source to the shader object
-  
     gl.shaderSource(shader, source);
   
     // Compile the shader program
-  
     gl.compileShader(shader);
   
     // See if it compiled successfully
-  
     if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
       alert('An error occurred compiling the shaders: ' + gl.getShaderInfoLog(shader));
       gl.deleteShader(shader);
