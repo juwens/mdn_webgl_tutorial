@@ -1,5 +1,5 @@
 interface ibuffers {
-    position : any;
+    position : WebGLBuffer;
 }
 
 interface iprogramInfo {
