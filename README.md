@@ -4,7 +4,8 @@
 Source: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
 
 # Requirements
-- https://nodejs.org/en/ download and install latest LTS
+- Node.js: https://nodejs.org/en/ download and install latest LTS
+- git: https://git-scm.com/ download and install
 
 # Get Started
 - clone
