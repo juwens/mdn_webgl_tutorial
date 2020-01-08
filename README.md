@@ -11,6 +11,6 @@ Source: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
 - clone
 - `cd mdn_wegl_tutorial`
 - `npm install`
-- `node node_modules\parcel\bin\cli.js src\index.html` or `npx parcel src\index.html`
+- `npm start`
 - open http://localhost:1234/
 - done
