@@ -3,6 +3,9 @@
 
 Source: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
 
+# Requirements
+- https://nodejs.org/en/ download and install latest LTS
+
 # Get Started
 - clone
 - `cd mdn_wegl_tutorial`
