@@ -2,6 +2,10 @@
   "name": "mdn_wegl_tutorial",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/juwens/mdn_wegl_tutorial.git"
+  },
   "main": "src/main.ts",
   "scripts": {
     "start": "node node_modules/parcel/bin/cli.js src/index.html",
