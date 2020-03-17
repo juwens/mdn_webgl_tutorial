@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/juwens/mdn_wegl_tutorial.git"
+    "type": "git",
+    "url": "https://github.com/juwens/mdn_wegl_tutorial.git"
   },
   "main": "src/main.ts",
   "scripts": {
